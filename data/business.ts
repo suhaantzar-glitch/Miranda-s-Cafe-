@@ -51,7 +51,12 @@ export const business = {
   // TODO: Replace with the cafe's real Facebook page URL.
   facebookUrl: "https://www.facebook.com/",
   // TODO: Replace with the production domain once purchased.
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.mirandascafecanton.com",
+  // Falls back to Vercel's auto-assigned production URL so preview drafts work.
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "https://www.mirandascafecanton.com"),
   hoursSummary: "Breakfast & lunch, 8am–3pm. Closed Wednesdays.",
   googleRating: 4.9,
   payment: ["Cash", "Credit & debit cards", "Apple Pay"],
