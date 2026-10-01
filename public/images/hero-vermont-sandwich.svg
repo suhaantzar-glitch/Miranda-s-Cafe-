@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of a stacked Vermont deli sandwich on grilled rye">
+<rect width="800" height="600" fill="#E4CFA9"/>
+<g transform="translate(680 110) rotate(18) scale(1.2)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+<g transform="translate(110 500) rotate(-24) scale(0.8)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+<ellipse cx="400" cy="440" rx="290" ry="40" fill="#000" opacity=".12"/>
+<ellipse cx="400" cy="420" rx="300" ry="46" fill="#FBF6EC"/>
+<ellipse cx="400" cy="414" rx="270" ry="34" fill="#F1E7D3"/>
+<path d="M185 400 Q180 345 200 330 L600 330 Q620 345 615 400 Q400 420 185 400Z" fill="#9C6B3E"/>
+<path d="M200 395 Q400 410 600 395" stroke="#6B4423" stroke-width="5" fill="none" stroke-dasharray="18 14"/>
+<path d="M190 330 L190 310 Q 250 296 310 308 T 430 306 T 550 308 T 610 304 L610 330 Z" fill="#B5473A"/>
+<path d="M190 302 L190 288 Q 250 274 310 286 T 430 284 T 550 286 T 610 282 L610 302 Z" fill="#9E3B30"/>
+<path d="M190 280 L190 270 Q 250 256 310 268 T 430 266 T 550 268 T 610 264 L610 280 Z" fill="#F3D27A"/>
+<path d="M190 262 L190 258 Q 250 244 310 256 T 430 254 T 550 256 T 610 252 L610 262 Z" fill="#7FA35B"/>
+<path d="M190 250 L190 240 Q 250 226 310 238 T 430 236 T 550 238 T 610 234 L610 250 Z" fill="#E9EBC9"/>
+<path d="M195 232 L195 224 L605 224 L605 232 Z" fill="#E79A6B"/>
+<path d="M190 228 Q195 154 400 146 Q605 154 610 228 Z" fill="#9C6B3E"/>
+<path d="M230 194 l40 -14 M300 174 l40 -14 M380 166 l40 -14 M460 172 l40 -14 M530 190 l40 -14" stroke="#6B4423" stroke-width="10" stroke-linecap="round"/>
+<g fill="#6B4423" opacity=".55"><circle cx="270" cy="202" r="3"/><circle cx="350" cy="184" r="3"/><circle cx="450" cy="180" r="3"/><circle cx="520" cy="194" r="3"/></g>
+<path d="M400 104 v-40" stroke="#5B3A1A" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(400 54) rotate(0) scale(0.45)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+</svg>

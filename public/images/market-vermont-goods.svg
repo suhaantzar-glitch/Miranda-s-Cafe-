@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of Vermont market goods: maple syrup jug, cheddar brick, chips and a cookie">
+<rect width="800" height="600" fill="#EADBC0"/>
+<rect y="440" width="800" height="160" fill="#8B5E34"/><rect y="440" width="800" height="14" fill="#6B4423"/>
+<path d="M140 440 v-170 q0 -40 40 -50 h40 v-40 h50 v40 h20 q40 10 40 50 v170z" fill="#C9822E"/>
+<path d="M230 230 a40 40 0 1 1 0 .1" fill="none" stroke="#9A5A1A" stroke-width="12"/>
+<rect x="160" y="320" width="150" height="90" rx="8" fill="#FBF6EC"/>
+<text x="235" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#2F5D3A">PURE</text>
+<text x="235" y="390" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2F5D3A">MAPLE</text>
+<path d="M360 440 l20 -90 h200 l-20 90z" fill="#F2B233"/><path d="M380 350 l20 -30 h200 l-20 30z" fill="#F7CF6A"/><path d="M580 350 l20 -30 v90 l-20 30z" fill="#D1921C"/>
+<rect x="400" y="380" width="120" height="32" rx="4" fill="#2F5D3A"/><text x="460" y="402" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#FBF6EC">CHEDDAR</text>
+<path d="M610 440 l-10 -150 q50 -14 100 0 l-10 150z" fill="#B5473A"/><path d="M600 290 l-6 -12 q56 -14 112 0 l-6 12z" fill="#9E3B30"/>
+<text x="650" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#FBF6EC">CHIPS</text>
+<circle cx="700" cy="470" r="48" fill="#D9A86C"/><g fill="#5B3A1A"><circle cx="685" cy="455" r="6"/><circle cx="712" cy="468" r="6"/><circle cx="694" cy="488" r="5"/></g>
+<g transform="translate(90 110) rotate(-10) scale(0.9)"><path fill="#2F5D3A" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g><g transform="translate(700 120) rotate(20) scale(1.1)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+</svg>

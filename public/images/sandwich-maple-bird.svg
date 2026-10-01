@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of the Maple Bird sandwich with turkey, Vermont cheddar and maple mustard">
+<rect width="800" height="600" fill="#F0DDBF"/>
+<g transform="translate(680 110) rotate(18) scale(1.2)"><path fill="#9A4E12" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+<g transform="translate(110 500) rotate(-24) scale(0.8)"><path fill="#9A4E12" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+<ellipse cx="400" cy="440" rx="290" ry="40" fill="#000" opacity=".12"/>
+<ellipse cx="400" cy="420" rx="300" ry="46" fill="#FBF6EC"/>
+<ellipse cx="400" cy="414" rx="270" ry="34" fill="#F1E7D3"/>
+<path d="M185 400 Q180 345 200 330 L600 330 Q620 345 615 400 Q400 420 185 400Z" fill="#D9A86C"/>
+<path d="M200 395 Q400 410 600 395" stroke="#A8743E" stroke-width="5" fill="none" stroke-dasharray="18 14"/>
+<path d="M190 330 L190 312 Q 250 298 310 310 T 430 308 T 550 310 T 610 306 L610 330 Z" fill="#EFD9B8"/>
+<path d="M190 304 L190 292 Q 250 278 310 290 T 430 288 T 550 290 T 610 286 L610 304 Z" fill="#E6CBA4"/>
+<path d="M190 284 L190 276 Q 250 262 310 274 T 430 272 T 550 274 T 610 270 L610 284 Z" fill="#F2A93B"/>
+<path d="M195 268 L195 261 L605 261 L605 268 Z" fill="#C98A2B"/>
+<path d="M190 265 Q195 191 400 183 Q605 191 610 265 Z" fill="#D9A86C"/>
+<path d="M230 231 l40 -14 M300 211 l40 -14 M380 203 l40 -14 M460 209 l40 -14 M530 227 l40 -14" stroke="#A8743E" stroke-width="10" stroke-linecap="round"/>
+<g fill="#A8743E" opacity=".55"><circle cx="270" cy="239" r="3"/><circle cx="350" cy="221" r="3"/><circle cx="450" cy="217" r="3"/><circle cx="520" cy="231" r="3"/></g>
+<path d="M400 141 v-40" stroke="#5B3A1A" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(400 91) rotate(0) scale(0.45)"><path fill="#9A4E12" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+</svg>

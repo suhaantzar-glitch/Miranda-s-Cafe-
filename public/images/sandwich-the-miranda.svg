@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of The Miranda: pastrami, Swiss, coleslaw and 1,000 Island on grilled rye">
+<rect width="800" height="600" fill="#E9D9BC"/>
+<g transform="translate(680 110) rotate(18) scale(1.2)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+<g transform="translate(110 500) rotate(-24) scale(0.8)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+<ellipse cx="400" cy="440" rx="290" ry="40" fill="#000" opacity=".12"/>
+<ellipse cx="400" cy="420" rx="300" ry="46" fill="#FBF6EC"/>
+<ellipse cx="400" cy="414" rx="270" ry="34" fill="#F1E7D3"/>
+<path d="M185 400 Q180 345 200 330 L600 330 Q620 345 615 400 Q400 420 185 400Z" fill="#9C6B3E"/>
+<path d="M200 395 Q400 410 600 395" stroke="#6B4423" stroke-width="5" fill="none" stroke-dasharray="18 14"/>
+<path d="M190 330 L190 312 Q 250 298 310 310 T 430 308 T 550 310 T 610 306 L610 330 Z" fill="#B5473A"/>
+<path d="M190 304 L190 292 Q 250 278 310 290 T 430 288 T 550 290 T 610 286 L610 304 Z" fill="#9E3B30"/>
+<path d="M190 284 L190 276 Q 250 262 310 274 T 430 272 T 550 274 T 610 270 L610 284 Z" fill="#F3D27A"/>
+<path d="M190 268 L190 256 Q 250 242 310 254 T 430 252 T 550 254 T 610 250 L610 268 Z" fill="#E9EBC9"/>
+<path d="M195 248 L195 240 L605 240 L605 248 Z" fill="#E79A6B"/>
+<path d="M190 244 Q195 170 400 162 Q605 170 610 244 Z" fill="#9C6B3E"/>
+<path d="M230 210 l40 -14 M300 190 l40 -14 M380 182 l40 -14 M460 188 l40 -14 M530 206 l40 -14" stroke="#6B4423" stroke-width="10" stroke-linecap="round"/>
+<g fill="#6B4423" opacity=".55"><circle cx="270" cy="218" r="3"/><circle cx="350" cy="200" r="3"/><circle cx="450" cy="196" r="3"/><circle cx="520" cy="210" r="3"/></g>
+<path d="M400 120 v-40" stroke="#5B3A1A" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(400 70) rotate(0) scale(0.45)"><path fill="#B5651D" d="M0-50 8-30 22-36 18-14 34-18 30-6 44 0 22 10 26 26 4 20 2 50-2 50-4 20-26 26-22 10-44 0-30-6-34-18-18-14-22-36-8-30Z"/></g>
+</svg>

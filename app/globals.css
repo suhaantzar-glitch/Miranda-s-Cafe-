@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fbf6ec;
+  --color-paper: #f4ebda;
+  --color-kraft: #e4cfa9;
+  --color-charcoal: #2a2623;
+  --color-ink-soft: #57504a;
+  --color-maple: #9a4e12;
+  --color-maple-dark: #7a3d0c;
+  --color-maple-light: #e9b44c;
+  --color-forest: #2f5d3a;
+  --color-forest-dark: #234a2c;
+  --color-chalk: #26302a;
+  --color-chalk-text: #f4efe3;
+
+  --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-chalk: var(--font-caveat), "Comic Sans MS", cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  /* Lenis handles smooth scrolling when active */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  html.lenis {
+    scroll-behavior: auto;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    background-image: url("/images/kraft-texture.svg");
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  [id] {
+    scroll-margin-top: 5.5rem;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-maple);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  .on-dark :focus-visible,
+  .on-dark:focus-visible {
+    outline-color: var(--color-maple-light);
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 48px;
+    padding: 0.75rem 1.4rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    line-height: 1.1;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .btn:hover {
+    transform: translateY(-1px);
+  }
+  .btn-primary {
+    background: var(--color-maple);
+    color: #fff;
+    box-shadow: 0 6px 16px -8px rgb(122 61 12 / 0.7);
+  }
+  .btn-primary:hover {
+    background: var(--color-maple-dark);
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--color-forest);
+    box-shadow: inset 0 0 0 2px var(--color-forest);
+  }
+  .btn-secondary:hover {
+    background: var(--color-forest);
+    color: #fff;
+  }
+
+  .eyebrow {
+    font-family: var(--font-chalk);
+    font-size: 1.6rem;
+    line-height: 1;
+    color: var(--color-maple);
+  }
+
+  .chalkboard {
+    background-color: var(--color-chalk);
+    background-image: url("/images/chalkboard-texture.svg");
+    background-size: cover;
+    color: var(--color-chalk-text);
+    box-shadow:
+      inset 0 0 0 6px #6b4423,
+      inset 0 0 0 8px #4a2f17,
+      0 10px 24px -14px rgb(0 0 0 / 0.6);
+  }
+
+  .card {
+    background: #fffdf8;
+    border: 1px solid rgb(42 38 35 / 0.1);
+    border-radius: 1.25rem;
+    box-shadow:
+      0 1px 0 rgb(42 38 35 / 0.04),
+      0 12px 30px -20px rgb(42 38 35 / 0.35);
+  }
+}
+
+/* Hero text reveal — pure CSS so it paints on first frame (good for LCP). */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.6em);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.reveal-line {
+  display: block;
+  animation: rise-in 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: calc(var(--i, 0) * 120ms + 80ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
